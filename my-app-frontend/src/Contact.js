@@ -1,12 +1,17 @@
 import React,{useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
-// import './Contact.css';
+// import './Submission.css';
 
-function Contact() {
+function Submission() {
     const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [content, setContent] =useState('')
+    const [user, setUser] = useState('')
+    const [description, setDescription] = useState('')
+    const [prepTime, setPrepTime] = useState('')
+    const [bakeTime, setBakeTime] = useState('')
+    const [totalTime, setTotalTime] = useState('')
+    const [ingredients, setIngredients] = useState('')
+    const [instructions, setInstructions] = useState('')
     // const postSet = {
     //     method:'POST',
     //     headers: {'Content-Type':'application/json'},
@@ -26,16 +31,26 @@ function Contact() {
         <>
         <Header />
         </>
-        <p>Contact Form</p>
+        <p>Submission Form</p>
         <>
-            <div className="Contact">
+            <div className="Submission">
                 <form >
                     <label for='name'>Full Name</label>
                     <input type="text" id="name" name='name' value = {name} placeholder="Your name.." onChange={(event)=>{setName(event.target.value)}}/>
-                    <label for='email'>Email Address</label>
-                    <input type="text" id="email" name='email' value={email} placeholder="Your email.." onChange={(event)=>{setEmail(event.target.value)}}/>
-                    <label for ='comments'>Comments/Complaints</label>
-                    <textarea id="Comments" name='content' value ={content} onChange={(event)=>{setContent(event.target.value)}} placeholder="Comments/Complaints"rows ="4"></textarea> 
+                    <label for='user'>User</label>
+                    <input type="text" id="user" name='user' value={user} placeholder="Your user.." onChange={(event)=>{setUser(event.target.value)}}/>
+                    <label for ='description'>Description</label>
+                    <textarea id="description" name='content' value ={description} onChange={(event)=>{setDescription(event.target.value)}}></textarea>
+                    <label for='prepTime'>Prep Time</label>
+                    <input type="text" id="prepTime" name='prepTime' value={prepTime} onChange={(event)=>{setPrepTime(event.target.value)}}/>
+                    <label for='bakeTime'>bakeTime</label>
+                    <input type="text" id="bakeTime" name='bakeTime' value={bakeTime} onChange={(event)=>{setBakeTime(event.target.value)}}/>
+                    <label for='totalTime'>totalTime</label>
+                    <input type="text" id="totalTime" name='totalTime' value={totalTime} onChange={(event)=>{setTotalTime(event.target.value)}}/>
+                    <label for='ingredients'>ingredients</label>
+                    <input type="text" id="ingredients" name='ingredients' value={ingredients} onChange={(event)=>{setIngredients(event.target.value)}}/> 
+                    <label for='instructions'>instructions</label>
+                    <input type="text" id="instructions" name='instructions' value={instructions} onChange={(event)=>{setInstructions(event.target.value)}}/>  
                     <input type="submit" value="Submit"/> 
                 </form>
             </div>
@@ -47,4 +62,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default Submission;

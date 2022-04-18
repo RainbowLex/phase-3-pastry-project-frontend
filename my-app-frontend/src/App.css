@@ -1,29 +1,3 @@
-/* .Home{
-
-    width: 100vw;
-    height: 100vh;
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px 1fr 1fr 1fr 100px;
-
-    gap: 10px;
-
-    padding: 10px;
-
-    box-sizing: border-box;
+body {
+    background-image: url("https://static.onecms.io/wp-content/uploads/sites/9/2020/08/21/miso-caramel-apple-danish-FT-RECIPE0920.jpg")
 }
-
-.Header {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-
-.Footer {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 5;
-} */

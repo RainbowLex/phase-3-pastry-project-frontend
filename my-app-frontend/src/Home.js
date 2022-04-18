@@ -10,7 +10,7 @@ function Home(){
         <div id="home" >
             <Header id='header'/>
             <h1>Pastry Database for Pastrie Lovers!</h1>
-            <Login id='Login' />
+            {/* <Login id='Login' /> */}
             <Top id='Top'/>
             <Footer id='footer'/>
         </div> 
