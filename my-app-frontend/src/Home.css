@@ -1,4 +1,4 @@
-/* .Home{
+.Home{
 
     width: 100vw;
     height: 100vh;
@@ -26,4 +26,4 @@
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 5;
-} */
+}
