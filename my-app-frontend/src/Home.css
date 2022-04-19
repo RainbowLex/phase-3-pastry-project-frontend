@@ -11,6 +11,16 @@
     padding: 10px;
 
     box-sizing: border-box;
+
+}
+
+#homePic{
+    /* background-image: url("https://images.squarespace-cdn.com/content/v1/58a21d2ee3df281cfde6e815/1487706069060-MJQALRKGQVBF5ZLNAJBB/Pastry_Banner.png?format=1500w"); */
+    /* background-repeat: no-repeat; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
 }
 
 #Header {
@@ -32,6 +42,12 @@
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 5;
+
+    background-color: white;
+    padding: 5px; 
+    border-radius: 30px;
+    box-shadow: 0 0 .25em black;
+    margin-right: 4px;
 }
 
 #Footer {

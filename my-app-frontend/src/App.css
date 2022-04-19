@@ -1,3 +1,14 @@
 body {
-    background-image: url("https://static.onecms.io/wp-content/uploads/sites/9/2020/08/21/miso-caramel-apple-danish-FT-RECIPE0920.jpg")
+    /* background-color: rgb(50, 122, 205); */
+
+     background-image: url("https://eskipaper.com/images/pastry-wallpaper-3.jpg");
+     
+     /* background-repeat: no-repeat; */
+
+     /* width:600px;
+     height:200px;
+     border: 2px solid black;
+     background: url("https://images.squarespace-cdn.com/content/v1/58a21d2ee3df281cfde6e815/1487706069060-MJQALRKGQVBF5ZLNAJBB/Pastry_Banner.png?format=1500w");
+     background-repeat: no-repeat;
+     background-size: 100% auto; */
 }

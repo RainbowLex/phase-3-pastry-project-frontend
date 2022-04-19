@@ -6,23 +6,21 @@
 
 #Header {
     display:flex;
-    background-color: aqua;
+    background-color: white;
+    border: solid 2px #dd5d46;
+    border-radius: 30px;
 }
 
-#title {
-    margin: auto;
-    margin-left: 600px;
-    width: 30%;
-    padding: 10px;
-    font-size: 40px;
+.headerImage {
+    padding-right: 800px;
 }
 
 .navBar {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-    font-size: 1.2em;
-    margin-top: 35px;
+    font-size: 1.1em;
+    margin-top: 33px;
 }
 
 .navLink {
@@ -31,16 +29,16 @@
     height: 30px;
     width: 60px;
     text-align: center;
-    color: limegreen;
+    color: black;
     border-radius: 8px;
 }
 
 .navLink:hover {
-    color: purple;
+    color: rgb(50, 122, 205);
 }
 
 .navLink:active {
-    color: orange;   
+    color: white;   
 }
 
 .headerImage {
@@ -48,7 +46,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    left: 25%;
+    left: 20%;
 
 }
 
