@@ -9,6 +9,7 @@ function Header(){
                 <a className ='navLink' href="./Home" >Home<br></br></a> 
                 <a className ='navLink' href="./Pastries" >Pastries<br></br></a> 
                 <a className ='navLink' href="./Submission">Submit<br></br></a>
+                <a className ='navLink' href="./UpdatePastry">Update a Pastry<br></br></a>
                 <a className ='navLink' href="./About">About<br></br></a>
             </nav>
             <img className="headerImage" src={logo} alt="Logo" ></img>                                                    

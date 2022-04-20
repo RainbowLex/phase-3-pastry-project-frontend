@@ -3,6 +3,7 @@ import Home from './Home';
 import About from './About';
 import Submission from './Submission';
 import Pastries from './Pastries';
+import UpdatePastry from './UpdatePastry';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
       <Route path= "/home"  element = {<Home/>} />
       <Route path="/pastries" element = {<Pastries/>}/>
       <Route path="/submission" element = {<Submission/>}/>
+      <Route path="/updatepastry" element = {<UpdatePastry/>}/>
       <Route path="/about" element = {<About/>}/>
       </Routes>
       </Router>
