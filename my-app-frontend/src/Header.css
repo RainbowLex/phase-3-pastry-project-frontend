@@ -7,7 +7,7 @@
 #Header {
     display:flex;
     background-color: white;
-    border: solid 2px #dd5d46;
+    border: solid 2px #b9402a;
     border-radius: 30px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .navLink:hover {
-    color: rgb(50, 122, 205);
+    color: rgb(252, 89, 179);
 }
 
 .navLink:active {

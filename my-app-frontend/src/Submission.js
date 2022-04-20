@@ -31,7 +31,6 @@ function Submission() {
         <>
         <Header />
         </>
-        <p id="subTitle">Submission Form</p>
         <>
             <div className="Submission">
                 <form id="container">

@@ -1,13 +1,12 @@
-#searchPrompt{
-    font-size: 2em;
-    margin-left: 400px;
-}
 #search{
     font-size: 2em;
-    margin-left: 620px;
+    margin-left:500px;
     margin-right: 500px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background-color: white;
     padding: 5px;
     border-radius: 20px;
+    border: solid 2px #b9402a;
+    width: 40%;
 }

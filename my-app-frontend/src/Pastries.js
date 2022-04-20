@@ -8,7 +8,7 @@ function Pastries() {
     return (
     <div className="Pastries">
       <Header />
-      <label id="searchPrompt" for='search'>Search Pastries: </label>
+      <label id="searchPrompt" for='search'> </label>
       <input type="text" id="search" name='search' value = {search} placeholder="Search a pastry!" onChange={(event)=>{setSearch(event.target.value)}}/>
       <Footer />
     </div>
