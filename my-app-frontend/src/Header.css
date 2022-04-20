@@ -5,14 +5,18 @@
 }
 
 #Header {
-    display:flex;
+    display: flex;
     background-color: white;
     border: solid 2px #b9402a;
     border-radius: 30px;
 }
 
 .headerImage {
-    padding-right: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
 }
 
 .navBar {
@@ -41,12 +45,5 @@
     color: white;   
 }
 
-.headerImage {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    left: 20%;
 
-}
 

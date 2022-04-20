@@ -14,14 +14,6 @@
 
 }
 
-#homePic{
-    /* background-image: url("https://images.squarespace-cdn.com/content/v1/58a21d2ee3df281cfde6e815/1487706069060-MJQALRKGQVBF5ZLNAJBB/Pastry_Banner.png?format=1500w"); */
-    /* background-repeat: no-repeat; */
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 6;
-}
 
 #Header {
     grid-column-start: 1;
@@ -30,17 +22,11 @@
     grid-row-end: 2;
 }
 
-#Login {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
 
 #Top {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: 5;
 
     background-color: white;

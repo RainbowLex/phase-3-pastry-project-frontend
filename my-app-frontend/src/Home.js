@@ -9,7 +9,6 @@ function Home(){
     return(
         <div id="home" >
             <Header id='header'/>
-            <h1 id="homePic">Pastry Database for Pastrie Lovers!</h1>
             {/* <Login id='Login' /> */}
             <Top id='Top'/>
             <Footer id='footer'/>
