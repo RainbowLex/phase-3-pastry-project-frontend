@@ -18,7 +18,6 @@ function PastryUpdateCard({pastry}){
                                 <img className="pastryPhoto" src={pastry.photo}/>
                                 <div className="pastryName">{pastry.name}</div>
                                 <div className="desc">{pastry.description}</div>
-                                <button className="delete">Delete</button>
                             </div>
                          </div>
                     </div>

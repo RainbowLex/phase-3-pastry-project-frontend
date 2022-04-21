@@ -1,7 +1,7 @@
 .Submission {
     font-size: 20px;
-    margin-left: 750px;
-    margin-right: 700px;
+    margin-left: 700px;
+    margin-right: 550px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #b9402a;
@@ -19,3 +19,24 @@
     border-radius: 20px;
     margin-top: 20px;
 }
+
+#subButton{
+    border: 1px solid;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+    
+#subButton:hover {
+    color: rgb(252, 89, 179);
+}
+    
+#subButton:active {
+    color: #b9402a;
+    background-color: #b9402a;   
+} 

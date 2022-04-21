@@ -1,18 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './PastryCard.css'; 
 
 function PastryCard({pastry, setPastry}){
-    //not working
+
     function handleDelete(pastry){
-        const name = pastry.name
-        const url = `http://localhost:9292/recipe/${name}`
+        const url = `http://localhost:9292/delete/${pastry.id}`
+        console.log(pastry.id)
         fetch(url,{
             method:'DELETE',
             headers:{'Content-Type':'application/json'}
         })
           .then(res => res.json())
-          .then(data => setPastry(data))
-      }
+          .then(data => setPastry(data));
+        document.location.reload();
+    }
 
     return(
         <div>
@@ -27,7 +28,7 @@ function PastryCard({pastry, setPastry}){
                                 <div className="pastrybake">{pastry.bake_time}</div>
                                 <div className="pastrytotal">{pastry.total_time}</div>
                                 <div className="desc">{pastry.description}</div>
-                                <button className="delete" onClick={handleDelete}>Delete</button>
+                                <button className="delete" onClick={() =>handleDelete(pastry)}>Delete</button>
                             </div>
                          </div>
                     </div>

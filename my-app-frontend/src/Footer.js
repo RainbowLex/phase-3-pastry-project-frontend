@@ -18,7 +18,9 @@ function Footer(){
   Alexia's Socials</h2>
     <ul class="box">
     <li><a href="https://www.linkedin.com/in/alexia-velador-67b76a235/">Linkedin</a></li>
-    <li><a href="#">Twitter</a></li>
+    <li><a href="https://github.com/RainbowLex">GitHub</a></li>
+    <li><a href="https://www.instagram.com/stwaters92/">Instagram</a></li>
+    <li><a href="https://twitter.com/stwaters92/">Twitter</a></li>
   </ul>
   </li>
   <li class="features">
@@ -26,7 +28,9 @@ function Footer(){
   Sam's Socials</h2>
     <ul class="box">
     <li><a href="https://www.linkedin.com/in/samuel-waters-7a85b590/">Linkedin</a></li>
-    <li><a href="#">Twitter</a></li>
+    <li><a href="https://github.com/darkcohiba">GitHub</a></li>
+    <li><a href="https://www.instagram.com/stwaters92/">Instagram</a></li>
+    <li><a href="https://twitter.com/stwaters92/">Twitter</a></li>
   </ul>
   </li>
   </ul>

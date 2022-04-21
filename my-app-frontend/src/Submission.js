@@ -35,13 +35,13 @@ function Submission() {
                     <label for='id'>Pastry Id: </label>
                     <input type="integer" className="allInput" id="id" name='id' value = {id} placeholder="Your pastry id.." onChange={(event)=>{setId(event.target.value)}}/>
                     <br></br>
-                    <label for='name'>Pastry Name: </label>
+                    <label for='name'>Recipe Name: </label>
                     <input type="text" className="allInput" id="name" name='name' value = {name} placeholder="Your pastry name.." onChange={(event)=>{setName(event.target.value)}}/>
                     <br></br>
                     <label for='userId'>User Id(1-5): </label>
                     <input type="integer" className="allInput" id="userId" name='userId' value={userId} placeholder="Your username.." onChange={(event)=>{setUserId(event.target.value)}}/>
                     <br></br>
-                    <label for='rating'>Rating: </label>
+                    <label for='rating'>Rating(1-5): </label>
                     <input type="integer" className="allInput" id="rating" name='rating' value = {rating} placeholder="Pastry rating.." onChange={(event)=>{setRating(event.target.value)}}/>
                     <br></br>
                     <label for ='description'>Description: </label>
@@ -61,7 +61,7 @@ function Submission() {
                     <br></br>
                     <label for='instructions'>Instructions: </label>
                     <textarea type="text" className="allInput" id="instructions" name='instructions' value={instructions}  placeholder="Enter Instructions.." rows="4" onChange={(event)=>{setInstructions(event.target.value)}} />  
-                    <input type="submit" value="Submit" onClick={handleSubmit} /> 
+                    <button id="subButton" type="submit"  onClick={handleSubmit}>Submit</button>
                 </form>
             </div>
         </>

@@ -2,6 +2,7 @@ import React,{ useState, useEffect } from 'react';
 import PastryUpdateCard from './PastryUpdateCard';
 import Footer from './Footer';
 import Header from './Header';
+import './Submission.css';
 
 function UpdatePastry() {
     const [updatedPhoto, setUpdatedPhoto] = useState('')
@@ -15,22 +16,21 @@ function UpdatePastry() {
             .then((data) => setPastry(data))
     },[handleChange]) 
 
-    function handleChange(e){
+
+
+    function handleChange(e) {
         e.preventDefault();
-        const name = pastry.name
         const updatedPastry = {
             photo: updatedPhoto,
-            name: updatedName,
             description: updatedDescription,
         }
-        fetch(`http://localhost:9292/recipe/${name}`, {
+        console.log(updatedName)
+        const name = updatedName
+        fetch(`http://localhost:9292/pastry/${name}`, {
             method: "PATCH",
-            headers: {
-                "Content-Type": "application/json",
-            },
+            headers: {"Content-Type": "application/json"},
             body: JSON.stringify(updatedPastry),
         })
-        console.log(updatedPastry);
     }
     
 
@@ -45,8 +45,8 @@ function UpdatePastry() {
                     <h1>Update a Pre-existing Pastry:</h1>
                     <label for='photo'>Photo Link: </label>
                     <input type="text" className="allInput" id="photo" name='photo' value={updatedPhoto}  placeholder="Enter Photo Link.." onChange={(event)=>{setUpdatedPhoto(event.target.value)}}/> 
-                    <label for='name'>Pastry Name: </label>
-                    <input type="text" className="allInput" id="name" name='name' value = {updatedName} placeholder="Your pastry name.." onChange={(event)=>{setUpdatedName(event.target.value)}}/>
+                    <label for='name'>Select a Pastry to Update by Inputting the name of a preexisting Pastry: </label>
+                    <input type="text" className="allInput" id="name" name='name' value = {updatedName} placeholder="Exact Name" onChange={(event)=>{setUpdatedName(event.target.value)}}/>
                     <br></br>
                     <label for ='description'>Description: </label>
                     <textarea className="allInput" id="description" name='content' value ={updatedDescription}  placeholder="Write a description.." rows="2" onChange={(event)=>{setUpdatedDescription(event.target.value)}}/>

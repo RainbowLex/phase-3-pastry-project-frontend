@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body {
     /* background-color: rgb(50, 122, 205); */
 
      background-image: url("https://eskipaper.com/images/pastry-wallpaper-3.jpg");
-     
-     /* background-repeat: no-repeat; */
 
      /* width:600px;
      height:200px;
