@@ -3,10 +3,6 @@ import './PastryCard.css';
 
 function PastryUpdateCard({pastry}){
 
-    //create patch
-    
-
-
 
     return(
         <div>

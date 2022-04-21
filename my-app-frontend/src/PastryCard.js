@@ -5,7 +5,6 @@ function PastryCard({pastry, setPastry}){
 
     function handleDelete(pastry){
         const url = `http://localhost:9292/delete/${pastry.id}`
-        console.log(pastry.id)
         fetch(url,{
             method:'DELETE',
             headers:{'Content-Type':'application/json'}
