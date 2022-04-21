@@ -2,7 +2,7 @@ import React from 'react';
 import './PastryCard.css'; 
 
 function PastryCard({pastry, setPastry}){
-    
+    //not working
     function handleDelete(pastry){
         const name = pastry.name
         const url = `http://localhost:9292/recipe/${name}`

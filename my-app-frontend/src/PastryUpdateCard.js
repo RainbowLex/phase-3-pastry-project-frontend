@@ -2,17 +2,11 @@ import React from 'react';
 import './PastryCard.css'; 
 
 function PastryUpdateCard({pastry}){
+
+    //create patch
     
-    // function handleDelete(pastry){
-    //     const name = pastry.name
-    //     const url = `http://localhost:9292/recipe/${name}`
-    //     fetch(url,{
-    //         method:'DELETE',
-    //         headers:{'Content-Type':'application/json'}
-    //     })
-    //       .then(res => res.json())
-    //       .then(data => setPastry(data))
-    //   }
+
+
 
     return(
         <div>
