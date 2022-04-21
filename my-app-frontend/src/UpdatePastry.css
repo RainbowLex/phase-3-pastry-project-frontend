@@ -1,0 +1,39 @@
+#container2 {
+    background-color: white;
+    padding: 5px; 
+    border-radius: 25px;
+    border: solid 2px #b9402a;
+    opacity: 90%;
+    width: 700px;
+    padding-left: 27px;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+#upTitle{
+    color:#b9402a;
+    margin-left: 140px;
+}
+
+#upButton{
+    border: 1px solid;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    margin-left: 290px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+    
+#upButton:hover {
+    color: rgb(252, 89, 179);
+}
+    
+#upButton:active {
+    color: #fff;
+    background-color: white;   
+} 

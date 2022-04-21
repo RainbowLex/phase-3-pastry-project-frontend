@@ -3,6 +3,9 @@ import './Header.css';
 import logo from "../src/images/made_with_love.png"
 
 function Header(){
+    function takeHome(){
+        window.location.replace("http://localhost:3000/Home")
+    }
     return(
         <div id="Header">
             <nav className="navBar"> 
@@ -12,7 +15,7 @@ function Header(){
                 <a className ='navPast' href="./UpdatePastry">Update a Pastry<br></br></a>
                 <a className ='navLink' href="./About">About<br></br></a>
             </nav>
-            <img className="headerImage" src={logo} alt="Logo" ></img>                                                    
+            <img className="headerImage" src={logo} alt="Logo" onClick={takeHome}></img>                                                    
         </div>
    )
 }

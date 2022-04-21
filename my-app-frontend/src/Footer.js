@@ -7,11 +7,11 @@ function Footer(){
     return(
         <div id="Footer">
             <footer class="footer">
-  <div class="l-footer">
+  {/* <div class="l-footer">
   <h1>
   <img id="footerLogo" src={logo} alt="logo" width="100%" height="100px"/></h1>
   <p>The most amazing pastry database, where you can search for pastries and look at the top rated pastries!</p>
-  </div>
+  </div> */}
   <ul class="r-footer">
   <li>
     <h2>
@@ -34,10 +34,6 @@ function Footer(){
   </ul>
   </li>
   </ul>
-  <div class="b-footer">
-  <p>
-  All rights reserved by ©BobEsponja 2022 </p>
-  </div>
   </footer>
         </div> 
     )

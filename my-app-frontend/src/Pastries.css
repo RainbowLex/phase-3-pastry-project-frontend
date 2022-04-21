@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+  }
+
 #search{
     font-size: 2em;
     margin-left:500px;

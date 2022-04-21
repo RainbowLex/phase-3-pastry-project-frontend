@@ -1,7 +1,7 @@
 .Submission {
     font-size: 20px;
-    margin-left: 700px;
-    margin-right: 550px;
+    margin-left: 550px;
+    margin-right: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #b9402a;
@@ -40,3 +40,21 @@
     color: #b9402a;
     background-color: #b9402a;   
 } 
+
+#subTitle{
+    width: 700px;
+    height: 40px;
+    background: #fff;
+    color: #b9402a;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    border-radius: 30px;
+    margin-left: 450px;
+    border: solid 2px #b9402a;
+    padding-top: 10px;
+}

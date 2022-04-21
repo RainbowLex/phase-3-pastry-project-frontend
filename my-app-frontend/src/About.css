@@ -4,5 +4,29 @@
     border-radius: 25px;
     margin-right: 4px;
     border: solid 2px #b9402a;
-    width: 450px;
+    opacity: 90%;
+}
+
+#aboutTitle1{
+    background-color: white;
+    padding: 5px; 
+    border-radius: 25px;
+    margin-right: 4px;
+    border: solid 2px #b9402a;
+    opacity: 90%;
+    width: 200px;
+    padding-left: 27px;
+    padding-top: 10px;
+}
+
+#aboutTitle2{
+    background-color: white;
+    padding: 5px; 
+    border-radius: 25px;
+    margin-right: 4px;
+    border: solid 2px #b9402a;
+    opacity: 90%;
+    width: 200px;
+    padding-left: 16px;
+    padding-top: 10px;
 }

@@ -21,6 +21,7 @@ function Submission() {
         body: JSON.stringify(data)}
     function handleSubmit(event) {
         fetch('http://localhost:9292/create-recipe', postSet)
+        alert('Thank you for submitting a recipe, you can now search it in the Recipes tab!')
     }
     
     
@@ -30,6 +31,8 @@ function Submission() {
         <Header />
         </>
         <>
+        <div>
+            <h1 id="subTitle">Submit a recipe here:</h1>
             <div className="Submission">
                 <form id="container">
                     <label for='id'>Pastry Id: </label>
@@ -64,6 +67,7 @@ function Submission() {
                     <button id="subButton" type="submit"  onClick={handleSubmit}>Submit</button>
                 </form>
             </div>
+         </div>
         </>
         <>
         <Footer />
