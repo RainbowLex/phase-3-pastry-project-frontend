@@ -1,3 +1,32 @@
+Postre Delicia Docs
+Database Structure:
+
+![image](https://user-images.githubusercontent.com/95453010/164746487-8a83a0af-0de7-4c92-91e3-31c8d71f1b50.png)
+
+Frontend Page Setup
+Home
+-holds a list of the top 4 rated recipes in the database
+recipes
+-hopes a search bar for users to search any recipe in the databse
+submit
+-users can submit a recipe into the database
+update a pastry
+-users can update a pastry listing on the website, not a recipe for a pastry
+about
+- a short about me page for the two creators
+
+Possible User Actions
+1. Visit creators social pages via the footer
+2. View the top four recipes for pastries on the database
+3. Search for any recipe in the database
+4. Submit a recipe into the database
+5. Update a staple pastry listing, recipes submitted by users can not be updatedf
+6. Delete recipes submitted by users
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
